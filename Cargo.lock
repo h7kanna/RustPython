@@ -1120,9 +1120,9 @@ dependencies = [
 
 [[package]]
 name = "libsqlite3-sys"
-version = "0.25.2"
+version = "0.26.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "29f835d03d717946d28b1d1ed632eb6f0e24a299388ee623d0c23118d3e8a7fa"
+checksum = "afc22eff61b133b115c6e8c74e818c628d6d5e7a502afea6f64dee076dd94326"
 dependencies = [
  "cc",
  "pkg-config",
@@ -1921,7 +1921,7 @@ dependencies = [
 [[package]]
 name = "rustpython-ast"
 version = "0.3.1"
-source = "git+https://github.com/RustPython/Parser.git?rev=29c4728dbedc7e69cc2560b9b34058bbba9b1303#29c4728dbedc7e69cc2560b9b34058bbba9b1303"
+source = "git+https://github.com/h7kanna/Parser.git?rev=d04baa9a2c6c76bba209bbd27baa90b52ec504d6#d04baa9a2c6c76bba209bbd27baa90b52ec504d6"
 dependencies = [
  "is-macro",
  "malachite-bigint",
@@ -2033,7 +2033,7 @@ dependencies = [
 [[package]]
 name = "rustpython-format"
 version = "0.3.1"
-source = "git+https://github.com/RustPython/Parser.git?rev=29c4728dbedc7e69cc2560b9b34058bbba9b1303#29c4728dbedc7e69cc2560b9b34058bbba9b1303"
+source = "git+https://github.com/h7kanna/Parser.git?rev=d04baa9a2c6c76bba209bbd27baa90b52ec504d6#d04baa9a2c6c76bba209bbd27baa90b52ec504d6"
 dependencies = [
  "bitflags 2.4.0",
  "itertools 0.11.0",
@@ -2060,7 +2060,7 @@ dependencies = [
 [[package]]
 name = "rustpython-literal"
 version = "0.3.1"
-source = "git+https://github.com/RustPython/Parser.git?rev=29c4728dbedc7e69cc2560b9b34058bbba9b1303#29c4728dbedc7e69cc2560b9b34058bbba9b1303"
+source = "git+https://github.com/h7kanna/Parser.git?rev=d04baa9a2c6c76bba209bbd27baa90b52ec504d6#d04baa9a2c6c76bba209bbd27baa90b52ec504d6"
 dependencies = [
  "hexf-parse",
  "is-macro",
@@ -2072,7 +2072,7 @@ dependencies = [
 [[package]]
 name = "rustpython-parser"
 version = "0.3.1"
-source = "git+https://github.com/RustPython/Parser.git?rev=29c4728dbedc7e69cc2560b9b34058bbba9b1303#29c4728dbedc7e69cc2560b9b34058bbba9b1303"
+source = "git+https://github.com/h7kanna/Parser.git?rev=d04baa9a2c6c76bba209bbd27baa90b52ec504d6#d04baa9a2c6c76bba209bbd27baa90b52ec504d6"
 dependencies = [
  "anyhow",
  "is-macro",
@@ -2095,7 +2095,7 @@ dependencies = [
 [[package]]
 name = "rustpython-parser-core"
 version = "0.3.1"
-source = "git+https://github.com/RustPython/Parser.git?rev=29c4728dbedc7e69cc2560b9b34058bbba9b1303#29c4728dbedc7e69cc2560b9b34058bbba9b1303"
+source = "git+https://github.com/h7kanna/Parser.git?rev=d04baa9a2c6c76bba209bbd27baa90b52ec504d6#d04baa9a2c6c76bba209bbd27baa90b52ec504d6"
 dependencies = [
  "is-macro",
  "memchr",
@@ -2105,7 +2105,7 @@ dependencies = [
 [[package]]
 name = "rustpython-parser-vendored"
 version = "0.3.1"
-source = "git+https://github.com/RustPython/Parser.git?rev=29c4728dbedc7e69cc2560b9b34058bbba9b1303#29c4728dbedc7e69cc2560b9b34058bbba9b1303"
+source = "git+https://github.com/h7kanna/Parser.git?rev=d04baa9a2c6c76bba209bbd27baa90b52ec504d6#d04baa9a2c6c76bba209bbd27baa90b52ec504d6"
 dependencies = [
  "memchr",
  "once_cell",
@@ -2910,9 +2910,8 @@ checksum = "c0edd1e5b14653f783770bce4a4dabb4a5108a5370a5f5d8cfe8710c361f6c8b"
 
 [[package]]
 name = "unicode_names2"
-version = "1.1.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "38b2c0942619ae1797f999a0ce7efc6c09592ad30e68e16cdbfdcd48a98c3579"
+version = "1.2.1"
+source = "git+https://github.com/h7kanna/unicode_names2?branch=master#00915301c24f75d2bb3fd26325c5613102a20636"
 dependencies = [
  "phf",
  "unicode_names2_generator",
@@ -2920,9 +2919,8 @@ dependencies = [
 
 [[package]]
 name = "unicode_names2_generator"
-version = "1.1.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "4d0d66ab60be9799a70f8eb227ea43da7dcc47561dd9102cbadacfe0930113f7"
+version = "1.2.1"
+source = "git+https://github.com/h7kanna/unicode_names2?branch=master#00915301c24f75d2bb3fd26325c5613102a20636"
 dependencies = [
  "getopts",
  "log",
